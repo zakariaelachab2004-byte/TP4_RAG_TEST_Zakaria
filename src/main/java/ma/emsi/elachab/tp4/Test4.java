@@ -132,26 +132,26 @@ public class Test4 {
                         .maxResults(3)
                         .build();
 
+
         // ==================================================
-        // 8. ROUTAGE : ANCIENNE VERSION (BONUS)
+        // 8. ANCIENNE VERSION : DefaultQueryRouter
         // ==================================================
+        // Cette version interroge systématiquement les
+        // deux sources : PDF et Web.
+        //
+        // Problème : pour une question sur l'actualité,
+        // des extraits inutiles du PDF sont également
+        // ajoutés au prompt envoyé à Gemini.
+        //
+        // Ancien code conservé pour l'exercice bonus :
 
         /*
-         * Ancienne solution avec DefaultQueryRouter.
-         *
-         * Le problème est que les deux retrievers sont
-         * systématiquement utilisés, quelle que soit
-         * la question.
-         *
-         * Exemple :
-         * Une question sur les annonces Java récentes
-         * déclenche aussi une recherche dans rag.pdf.
-         *
-         * QueryRouter routeur = new DefaultQueryRouter(
-         *         retrieverPdf,
-         *         retrieverWeb
-         * );
-         */
+        QueryRouter routeur = new DefaultQueryRouter(
+                retrieverPdf,
+                retrieverWeb
+        );
+        */
+
 
         // ==================================================
         // 9. ROUTAGE : NOUVELLE VERSION INTELLIGENTE
