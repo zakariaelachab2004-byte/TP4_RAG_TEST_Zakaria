@@ -37,6 +37,8 @@ public class RagNaif {
                 .apiKey(apiKey)
                 .modelName("gemini-3.5-flash-lite")
                 .temperature(0.2)
+                .logRequests(true)
+                .logResponses(true)
                 .build();
 
         // PHASE 1 : INGESTION
