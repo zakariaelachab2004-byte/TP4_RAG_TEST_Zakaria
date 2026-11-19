@@ -1,0 +1,28 @@
+
+Cours de programmation Java
+
+Java est un langage de programmation orienté objet.
+
+L'héritage permet à une classe enfant de récupérer
+les attributs et les méthodes d'une classe parent.
+Le mot-clé extends est utilisé pour déclarer l'héritage.
+
+Le polymorphisme permet d'utiliser une référence
+d'une classe parent pour manipuler différents objets
+de classes enfants.
+
+Les collections Java permettent de gérer des groupes
+d'objets. Les principales interfaces sont List, Set et Map.
+
+Les Streams Java permettent de traiter des collections
+avec des opérations comme filter, map et collect.
+
+Un thread représente un fil d'exécution dans un programme.
+Java permet de créer des threads avec Thread, Runnable
+ou ExecutorService.
+
+ExecutorService permet de gérer un ensemble de threads
+et d'exécuter des tâches de manière contrôlée.
+
+JavaFX permet de créer des interfaces graphiques Java
+avec des composants comme Button, Label et TableView.
