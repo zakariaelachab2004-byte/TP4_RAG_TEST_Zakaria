@@ -25,7 +25,7 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.Scanner;
 
-public class TestSansRagInutile {
+public class Test3 {
 
     public static void main(String[] args) {
 
